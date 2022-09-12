@@ -1,0 +1,983 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+li{
+    text-decoration: none;
+    list-style-type: none;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    text-decoration-color: none;
+    cursor: pointer;
+
+}
+button{
+    cursor: pointer;
+}
+strong{
+    color: #197AFF;
+    border-bottom: 1px solid #197AFF;;
+}
+.header_sale{
+    background: #11346F;
+    min-height: 39px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.header_sale_title{
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.header_main{
+    min-height: 67px;
+    background: rgba(245, 253, 255, 0.8);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06);
+    backdrop-filter: blur(28px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.header_main_menu{
+    display: flex;
+    gap:60px;
+}
+.header_main_menu_item{
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+
+    /* Blue Secondary */
+
+    color: #11346F;
+
+}
+.header_btn{
+    padding: 11px 39px;
+}
+.header_main_btn{
+    cursor: pointer;
+    background: #197AFF;
+    border-radius: 60px;
+    /* height: 42px; */
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    /* line-height: 19px; */
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+}
+.main_content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 176px;
+}
+.main_content_advert_header{
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.main_content_advert{
+    display: flex;
+    flex-direction: column;
+}
+.main_content_advert_title{
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 55px;
+
+    /* Blue Secondary */
+
+    color: #11346F;
+
+}
+.main_content_advert_title strong{
+    color: #197AFF;
+    border-bottom: 1px solid #197AFF;;
+}
+
+.main_content_descr{
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    max-width: 731px;;
+    color: #262626;
+
+}
+.main_content_types{
+    display: flex;
+    background: rgba(174, 204, 255, 0.1);
+border: 1px solid rgba(174, 204, 255, 0.5);
+border-radius: 10px;
+}
+.main_content_elem{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 23px;
+    padding-top: 23px;
+    border-right:1px solid #CEE2FF;
+}
+.main_content_elem_title{
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #11346F;
+
+}
+.main_content_elem_descr{
+    align-self: flex-start;
+}
+.elem_descr{
+    list-style-type:disc;
+}
+.main_massagegun{
+    margin-top: 10em;
+    align-self: center;
+}
+.main_content_btm{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 34px;
+    width: 100%;
+    margin-top: 52px;
+}
+.main_content_btm_btns{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.main_content_btn{
+    padding: 19px 60px;
+}
+.main_content_btn_bundles{
+    border: none;
+    padding: 10px 28px;
+    align-self: center;
+    max-width: 255px;;
+    background: rgba(77, 145, 207, 0.15);
+box-shadow: 0px 0px 14px #FFFFFF;
+border-radius: 30px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 14px;
+/* identical to box height, or 93% */
+
+text-align: center;
+
+color: #000000;
+}
+.main_content_btn_bundles strong{
+    color: #197AFF;
+}
+.review_main_img{
+    width: 64px;
+height: 64px;
+}
+.main_content_btm_rvws{
+    margin-top: 5em;
+    align-self: flex-end;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    background: rgba(234, 242, 255, 0.1);
+border: 1px solid rgba(174, 204, 255, 0.5);
+border-radius: 110px;
+padding: 15px;
+}
+.main_content_images{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+}
+.review_main_content_text{
+    font-family: 'Mont';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 17px;
+/* or 142% */
+max-width:222px;;
+
+color: #000000;
+
+}
+.review_main_customer{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 17px;
+/* identical to box height, or 142% */
+
+
+color: #787979;
+
+}
+.review_main_buyer{
+    font-family: 'Mont';
+font-style: normal;
+font-weight: 800;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height */
+
+text-align: center;
+
+/* Blue Primary */
+
+color: #197AFF;
+
+}
+.main_company_advert{
+    background: #11346F;
+    backdrop-filter: blur(4px);
+    min-height: 97px;
+    display: flex;
+    justify-content: space-around;
+}
+.main_company_add{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+.main_company_add_text{
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+
+
+    color: #FFFFFF;
+
+}
+.main_products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(118.72deg, #AECCFF -18.14%, #197AFF 165.34%);
+    
+}
+.main_products_title{
+    align-self: center;
+    font-family: 'Mont';
+font-style: normal;
+font-weight: 700;
+font-size: 37px;
+/* identical to box height */
+
+
+color: #11346F;
+
+}
+.main_products_descr{
+    font-family: 'Mont';
+font-style: normal;
+font-weight: 900;
+font-size: 37px;
+/* identical to box height */
+
+border-bottom: 1px solid #FFFFFF;
+color: #FFFFFF;
+}
+.main_products_list{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 52px;
+    flex-wrap: wrap;
+    gap: 47px;
+}
+.main_product_box{
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 34px;
+    align-items: center;
+    justify-content:flex-end;
+    background: #F6F8FC;
+    opacity: 0.7;
+    /* Blue Primary */
+    border: 1.5px solid #197AFF;
+    border-radius: 18px;
+    padding-bottom: 24px;
+}
+.main_product_box_sale_btn{
+    background: #BCF5E3;
+    border-radius: 40px;
+    border: none;
+    padding: 5px;
+    
+}
+.main_product_box_img{
+    width: 133px;
+height: 100px;
+margin-bottom: 36px;
+}
+.main_product_box_title{
+    font-family: 'Mont';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 37px;
+/* identical to box height */
+
+/* Blue Secondary */
+
+color: #11346F;
+}
+.main_product_box_price{
+    font-family: 'Mont';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 43px;
+text-align: center;
+
+/* Blue Secondary */
+
+color: #11346F;
+
+}
+.main_product_box_shipping{
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+
+
+/* Blue Secondary */
+
+color: #11346F;
+}
+.main_product_box_verify{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.main_product_box_verify_text{
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+/* Blue Secondary */
+
+color: #11346F;
+
+}
+.main_product_box_sale{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.main_product_box_sale_text{
+    font-family: 'Mont';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+/* Blue Secondary */
+
+color: #11346F;
+}
+.main_product_box_btn{
+    margin-top: 48px;
+    padding: 15px 87px;
+    background: #197AFF;
+box-shadow: 0px 7px 14px rgba(25, 122, 255, 0.5);
+border-radius: 60px;
+}
+.main_product_box_paymentTypes{
+    margin-top: 22px;
+    align-items: center;
+    display: flex;
+    gap: 16px;
+}
+.main_product_box_sec{
+    width: 216px;
+height: 100px;
+}
+.main{
+    opacity: 1;
+}
+
+.main_content_popular{
+    display: flex;
+    justify-content: center;
+}
+.main_content_popular_text{
+    position: relative;
+    left: 35px;
+    align-self: center;
+    background: #57AC73;
+border-radius: 50px;
+font-family: 'Mont';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+padding: 6px 16px;
+}
+.main_content_popular_img{
+    position: relative;
+    left: 45px;
+    transform: rotate(45deg);
+}
+.main_price{
+    display: block;
+    margin-top: 1.2em;
+}
+.main_product_sales{
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    margin-bottom: 11px;
+}
+.old_price{
+    font-family: 'Mont';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 42px;
+/* identical to box height */
+
+text-align: center;
+
+color: #93A2BB;
+text-decoration: line-through;
+text-decoration-color:#93A2BB; ;
+}
+.main_product_extra{
+    display: flex;
+    flex-direction: column;
+border: 1px solid #AECCFF;
+border-radius: 19px;
+align-items: center;
+}
+.main_product_sale{
+    display: flex;
+    width: 100%;
+background: #F0F6FF;
+
+border: 1px solid #AECCFF;
+border-radius: 19px;
+}
+.main_product_sale_money{
+
+    font-family: 'Mont';
+font-style: normal;
+font-weight: 800;
+font-size: 12px;
+line-height: 16px;
+color: #11346F;
+height: 30%;
+background: #BFF5BE;
+border: 1px solid #99D298;
+border-radius: 48px;
+padding: 11px 22px;
+}
+.main_product_orders{
+    font-family: 'Mont';
+font-style: normal;
+font-weight: 800;
+font-size: 13px;
+line-height: 17px;
+
+/* Blue Secondary */
+
+color: #11346F;
+
+}
+.main_first_img{
+    margin-bottom: 8em;
+}
+.main_product_box_third{
+    width: 258px;
+height: 106px;
+}
+.maroon{
+    
+background: #AC5780;
+border-radius: 50px;
+}
+.main_box_remaining{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+.main_customer_review{
+    align-self: center;
+    margin-top: 48px;
+    font-family: 'Mont';
+font-style: normal;
+font-weight: 700;
+font-size: 37px;
+line-height: 49px;
+
+/* Blue Secondary */
+
+color: #11346F;
+
+}
+.main_customer_review_stars{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.main_customer_reviews_count{
+    font-family: 'Mont';
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+
+/* Blue Secondary */
+
+color: #11346F;
+
+}
+.main_customer_write_review{
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+text-align: center;
+
+color: #3A3075;
+padding: 7px 22px;
+background: #F6F8FC;
+border: 1px solid #213786;
+border-radius: 5px;
+}
+.main_customer_review_header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main_customer_reviews_slider{
+    margin-top: 23px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.main_review{
+    display: flex;
+    flex-direction: column;
+    max-width: 285px;
+    ;
+background: #FFFFFF;
+border: 1px solid #E9E9E9;
+border-radius: 10px;
+}
+.main_review_img{
+    max-width: 100%;
+    max-height: 169px;
+}
+.main_review_descr{
+    padding: 0px 17px;
+    display: flex;
+    align-items: center;
+    gap:46px;
+}
+.main_review_descr_imgs{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+.main_review_descr_name{
+    align-self: flex-start;
+    font-family: 'Mont';
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+
+/* Blue Secondary */
+
+color: #11346F;
+
+}
+.reviews{
+    margin-left: 17px;
+}
+.main_review_text{
+    padding: 0px 17px;
+    font-family: 'Mont';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 26px;
+/* or 200% */
+height: 226px;
+
+/* Text */
+
+color: #262626;
+
+}
+.main_review_buyer{
+    font-family: 'Mont';
+font-style: normal;
+font-weight: 800;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height */
+
+text-align: center;
+
+color: #89C25F;
+
+}
+.footer{
+    margin-top: 62px;
+    background: #11346F;
+    display: flex;
+    flex-direction: column;
+}
+.footer_title{
+    align-self: center;
+    margin-bottom: 65px;
+    font-family: 'Mont';
+font-style: normal;
+font-weight: 700;
+font-size: 37px;
+line-height: 49px;
+
+color: #FFFFFF;
+
+}
+.footer_title em{
+    border-bottom: 1px solid #FFFFFF;
+}
+.footer_main_content_img{
+    width: 40%;
+height: 398px;
+}
+.footer_main_content{
+    display: flex;
+    gap: 84px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+}
+.footer_main_info{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+.footer_main_faq{
+    flex-grow: 1;
+width: 100%;
+border-radius: 9px 9px 0px 0px;
+min-height: 59px;
+}
+.footer_main_faq > summary{
+    padding-left: 20px;
+
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background: #194081;
+    border: 1px solid #31548E;
+    border-radius: 9px;
+min-height: 59px;
+
+font-family: 'Mont';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+
+color: #FFFFFF;
+
+}
+.footer_main_faq > p {
+    padding-left: 20px;
+    font-family: 'Mont';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+
+/* Blue For Text */
+
+color: #AECCFF;
+
+}
+
+.footer_main_faq[open] > summary{
+    background: #11346F;
+    border: 1px solid #31548E;
+    border-radius: 9px;
+}
+.footer_all_faq{
+    font-family: 'Mont';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+
+/* Background Down */
+
+color: #F6F8FC;
+
+}
+.footer_vector{
+    margin-left: 12px;
+}
+.main_content_mobile{
+    display: none;
+    align-items: center;
+    background: #F5FDFF;
+
+}
+.main_content_mobile_header{
+    display: flex;
+    margin-top: 16px;
+}
+.main_content_mobile_massagegun{
+    max-width: 174px;
+    max-height: 107px;
+}
+.main_content_mobile_title{
+    font-family: 'Mont';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 30px;
+/* or 115% */
+
+
+/* Blue Secondary */
+
+color: #11346F;
+max-width: 213px;
+;
+}
+.main_mobile_descr{
+    font-family: 'Mont';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 22px;
+/* or 157% */
+
+text-align: center;
+
+/* Text */
+
+color: #262626;
+}
+.main_mobile_elem{
+    border: none;
+    background: #F5FDFF;
+
+}
+.main_mobile_elems{
+    align-self: stretch;
+    border: none;
+}
+.main_mobile_review{
+    margin-top: 26px;
+    align-self: center;
+    margin-bottom: 26px;
+}
+.slider_btns{
+    align-self: center;
+    display: flex;
+    margin-top: 22px;
+    gap: 10px;
+    display: none;
+}
+.slider_btn{
+    width: 14px;
+    height: 14px;
+    border-radius: 100%;
+    background: #CBCED6;
+    cursor: pointer;
+}
+.main_review{
+    min-height: max-content;
+}
+.main_review_text{
+    word-wrap: break-word;
+    min-height: fit-content;
+}
+.active{
+    background: #197AFF;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: flex;
+}
+@media (max-width:950px) {
+    .main_content{
+        display: none;
+    }
+    .slider_btns{
+        display: flex;
+    }
+    .footer_title{
+        font-family: 'Mont';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 47px;
+/* or 157% */
+
+text-align: center;
+
+color: #FFFFFF;
+max-width: 260px;
+
+    }
+    .main_content_mobile{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_main_content_img{
+        max-height: 194px;
+        width: 90%;
+    }
+    .main_customer_reviews_slider{
+        gap: 20px;
+    }
+
+
+    .footer_main_info{
+        width: 100%;
+    }
+    .main_product_box{
+        padding: 10px;
+    }
+    .footer_see_all{
+        align-self: center;
+    }
+    .header_main_menu{
+        display: none;
+    }
+    .header_btn{
+        display: none;
+    }
+    .main_company_add:nth-of-type(2){
+        display: none;
+    }
+    .main_company_add{
+        margin-top: 11px;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+
+    }
+    .main_company_add_text{
+        font-family: 'Mont';
+font-style: normal;
+font-weight: 800;
+font-size: 12px;
+line-height: 18px;
+/* or 150% */
+
+text-align: center;
+
+color: #FFFFFF;
+    }
+    .main_products_title{
+        font-family: 'Mont';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 39px;
+/* or 130% */
+
+text-align: center;
+
+color: #11346F;
+
+    }
+    .main_products_descr{
+        font-family: 'Mont';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 39px;
+/* or 130% */
+
+text-align: center;
+    }
+    .main_products_list{
+        flex-direction: column-reverse;
+        align-items: stretch;
+    }
+    .main_product_box{
+        width: 100%;
+    }
+    .footer_main_faq{
+        width: 100%;
+    }
+    
+}
