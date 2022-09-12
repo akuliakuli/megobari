@@ -27,7 +27,8 @@ boxes.forEach(item => {
 })
 // SLIDER
 
-
+// IF SCREEN SIZE changed dynamically then it would'nt work,if you want to see result first set google chrome to responsive mode,then choose the resolution you want and update the page
+// else it works perfectlly,if you open it straight up with mobile device or etc
    if(window.screen.availWidth <= 1000 && window.screen.availHeight<= 1400){
     let sliderElems = document.querySelectorAll(".main_review"),
     sliderBtns = document.querySelectorAll(".slider_btn");
